@@ -222,6 +222,25 @@ const normalize = css`
   th {
     padding: 0;
   }
+
+  .link-active {
+    color: #000;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+
+    &::after {
+      content: '';
+      display: block;
+      background: #000;
+      width: 30px;
+      border-width: 0.5em 0;
+      height: 0.1em;
+      margin: 0.2em;
+      margin-left: 0.5rem;
+      margin-top: 0.4em;
+    }
+  }
 `
 
 export default normalize

@@ -1,4 +1,3 @@
-import React from 'react'
 import styled, { css } from 'styled-components'
 import { font, colors } from '../styles/theme'
 
@@ -6,7 +5,8 @@ const Text = {}
 
 const defaultStyles = css`
   font-family: ${font.serif};
-  font-size: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.4;
   color: ${colors.textDark};
 `
 

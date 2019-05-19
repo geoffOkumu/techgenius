@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
 title: Techgenius - By Austion Okhala
-image: /img/home-jumbotron.jpg
+image: /img/stock-market-2616931_1920.jpg
 heading: TG
-subheading: Austin Okhala is
+subheading: Techgenius by Austin Okhala
 maincopy:
   title: About me
   body: >

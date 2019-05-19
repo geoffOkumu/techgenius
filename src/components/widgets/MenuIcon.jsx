@@ -36,6 +36,7 @@ const IconWrapper = styled.div`
   width: 50px;
   height: 50px;
   cursor: pointer;
+  position: relative;
 `
 
 const MenuIcon = ({ active }) => (

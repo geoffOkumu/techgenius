@@ -82,4 +82,22 @@ collections:
               default: 'about-page',
             }
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: Image, name: image, widget: image }
+          - { label: Heading, name: heading, widget: string }
+          - { label: Subheading, name: subheading, widget: string }
+          - { label: Twitter, name: twitter, widget: string }
+          - { label: Facebook, name: facebook, widget: string }
+          - { label: Instagram, name: instagram, widget: string }
+          - { label: Linkedin, name: linkedin, widget: string }
+          - { label: Email, name: email, widget: string }
+          - { label: 'Phone Number', name: phone, widget: string }
+          - {
+              label: Maincopy,
+              name: maincopy,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Body, name: body, widget: text },
+                ],
+            }

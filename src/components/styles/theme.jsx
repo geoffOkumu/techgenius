@@ -6,16 +6,16 @@ export const colors = {
   tertiary: '#f19f4d',
   blue: '#4484ce',
   green: '#10893E',
-  grey: '#f4f4f4',
+  grey: '#cecece',
   textDark: '#1e1e1e',
-  textLight: '#acbcc2',
+  textLight: '#707070',
   headerBg: 'rgba(255,255,255,0.975)',
   bodyBg: '#f2f2f2',
 }
 
 export const font = {
   sans:
-    "'Merriweather Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'",
+    "'Segoe UI','Merriweather Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'",
   serif: "'Merriweather', 'Georgia', 'serif'",
   display: "'Playfair Display', serif",
   mono: "'Roboto Mono', Monaco, monospace !default",

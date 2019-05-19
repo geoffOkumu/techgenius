@@ -20,7 +20,7 @@ class Layout extends React.Component {
           <html lang="en" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link
-            href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans:700,800"
+            href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans:400,800"
             rel="stylesheet"
           />
         </Helmet>
