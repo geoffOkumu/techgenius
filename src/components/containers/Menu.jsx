@@ -82,6 +82,7 @@ const Wrapper = styled.nav`
       top: 0;
       left: 0;
       width: 100%;
+      transition: 0.4s;
       background: #fff;
       display: ${({ show }) => (show ? 'block' : 'none')};
   `}
